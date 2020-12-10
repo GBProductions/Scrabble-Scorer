@@ -1,20 +1,25 @@
 # _Scrabble Scorer_
 
-#### _Scrabble Scorer will take a word the user enters, and return the total scrabble point value of the letters, December 10th 2020_
+#### _Scrabble Scorer will take a word the user enters and return a total score, December 10th 2020_
 
 #### By _**Joey Giunta, Garrett Brown**_
 
 ## Description
+Scrabble Scorer will take a word the user enters, and return the total scrabble point value of the letters. It only takes the first word before a space, and does not include any bonuses or tile count.
+
+
 Scrabble Scores
 
 -------------------------------------
-A, E, I, O, U, L, N, R, S, T       1  
-D, G                               2  
-B, C, M, P                         3  
-F, H, V, W, Y                      4  
-K                                  5  
-J, X                               8  
-Q, Z                               10
+| LETTERS | SCORE |  
+| ----------- | ----------- |
+| A,E,I,O,U,L,N,R,S,T | 1 |  
+| D,G | 2 |  
+| B,C,M,P | 3 |
+| F,H,V,W,Y | 4 |
+| K | 5 |  
+| J,X | 8 |
+| Q,Z | 10 |
 
 ------------------------------------
 
