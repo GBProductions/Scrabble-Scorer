@@ -9,30 +9,26 @@ namespace Scrabble.Models
     public int GetScrabbleScore(string inputWord)
     {
       int pointTotal = 0;
-      Regex getNonLetters = new Regex("^a-z");
-      //Regex onePointRegex = new Regex("aeioulnrst");
-      inputWord.ToLower();
-      getNonLetters.Replace(inputWord, string.Empty);
-
-      //string[] inputWordArray = inputWord.Split(' ');
-      foreach(Match match in Regex.Matches(inputWord, @"[aeiourstln]"))
+      Dictionary<string, int> letterValues = new Dictionary<string, int>()
       {
-        pointTotal++;
-      }
+        {"aeiourstln", 1},
+        {"dg", 2},
+        {"bcmp", 3},
+        {"fhvwy", 4},
+        {"k", 5},
+        {"jx", 8},
+        {"qz", 10}
+      };
 
+      // For Each match to each Key in letterValues, add the corresponding value to pointTotal and return once finished 
+      foreach(KeyValuePair<string, int> entry in letterValues)
+      {
+        foreach(Match match in Regex.Matches(inputWord, $@"(?i)[{entry.Key}]"))
+        {
+          pointTotal += entry.Value;
+        }
+      }
       return pointTotal;
     }
   }
 }
-
-// Input word from console
-
-// use regex to be case insensitive and reject nonletters
-
-// split word into array
-
-// Match or a loop through array looking for letters, and matching them with their respective value
-
-// each match or loop, add values together
-
-// return total score in console
