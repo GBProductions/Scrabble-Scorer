@@ -12,7 +12,7 @@ namespace Scrabble.TestTool
     public void ScrabbleScore_GetLetterScore()
     {
       ScrabbleScore testScrabbleScore = new ScrabbleScore();
-      Assert.AreEqual(1, testScrabbleScore.GetScrabbleScore("a"));
+      Assert.AreEqual(2, testScrabbleScore.GetScrabbleScore("Aa"));
     }
   }
 }
