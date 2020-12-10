@@ -33,9 +33,9 @@ _There are currently no known bugs._
 
 ## Support and contact details
 
-_If there are issues, please contact the following:_
-Co-authored-by: Joseph Giunta <jgnohack@gmail.com>
-Co-authored-by: Garrett Brown >garrettpaulbrown@gmail.com>
+_If there are issues, please contact the following:_  
+Joseph Giunta <giuntajc@comcast.net>  
+Garrett Brown <garrettpaulbrown@gmail.com>
 
 
 ## Technologies Used
