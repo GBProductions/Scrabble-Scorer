@@ -1,6 +1,6 @@
 # _Scrabble Scorer_
 
-#### _{Brief description of application}, December 10th 2020_
+#### _Scrabble Scorer will take a word the user enters, and return the total scrabble point value of the letters, December 10th 2020_
 
 #### By _**Joey Giunta, Garrett Brown**_
 
@@ -21,13 +21,11 @@ Q, Z                               10
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Download or clone this repository_
+* _open console in ScrabbleScorer/Scrabble_
+* _run "dotnet build"_
+* _run "dotnet run"_
+* _Enter word to be scored_
 
 ## Known Bugs
 
@@ -49,4 +47,4 @@ Co-authored-by: Garrett Brown >garrettpaulbrown@gmail.com>
 
 *Available under the MIT License.*
 
-Copyright (c) 2020 **_Garrett Brown_**
+Copyright (c) 2020 **_Joseph C Giunta, Garrett Brown_**
